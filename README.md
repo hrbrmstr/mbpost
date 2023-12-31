@@ -1,0 +1,37 @@
+
+# mbpost
+
+Working sample code to post a long thread to both Mastodon and Bluesky
+
+## Install
+
+``` bash
+$ git clone git@codeberg.com:hrbrmstr/mbpost
+$ cd mbpost
+$ npm install
+```
+
+## Required Environment Variables
+
+Either in the general environment or a local `.env` file:
+
+You need a [Mastodon access
+token](https://docs.joinmastodon.org/client/token/) and a [Bluesky app
+password](https://bsky.app/settings/app-passwords).
+
+    MASTODON_URL=https://mastodon.social USE YOURS
+    MASTODON_ACCESS_TOKEN=eSDFdmdlfms…
+    BLUESKY_IDENTIFIER=hrbrmstr.dev USE YOURS
+    BLUESKY_APP_PASSWORD=xxxx-yyyy-xxxx-…
+
+## Usage
+
+``` bash
+$ node index.mjs a-text-file-with-text-to-thread
+```
+
+e.g.,
+
+``` bash
+$ node index.mjs test.txt
+```
