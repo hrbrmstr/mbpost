@@ -10,6 +10,7 @@
     "activitypub",
     "thread"
   ],
+  "type": "module",
   "author": "boB Rudis",
   "license": "MIT",
   "dependencies": {
