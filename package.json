@@ -1,0 +1,22 @@
+{
+  "name": "mbpost",
+  "version": "0.1.0",
+  "description": "Post a long thread from a file to Mastodon and Bluesky",
+  "main": "index.mjs",
+  "keywords": [
+    "mastodon",
+    "bluesky",
+    "atproto",
+    "activitypub",
+    "thread"
+  ],
+  "author": "boB Rudis",
+  "license": "MIT",
+  "dependencies": {
+    "@atproto/api": "^0.7.4",
+    "chunk-text": "^2.0.1",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "masto": "^6.5.2"
+  }
+}
